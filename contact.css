@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+}
+
+.navbar .logo{
+  width: 10%;
+    padding:auto;
+    cursor: pointer;
+    padding: 7pxW;
+    margin-right: -20rem;
+}
+li,a,button{
+
+  font-family: "Poppins", sans-serif; 
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--color-1);
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  /* position: fixed; */
+  width: 100%;
+  top: 0;
+  left: 0;
+  justify-content:space-around;
+  padding :0px;
+  background-color: white;
+}
+.nav-links{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+
+}
+.nav-links li{
+  display: inline-block;
+  padding: 30px 50px;
+}
+.nav-links li a{
+ transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+  color: rgba(188, 28, 92, 0.9);
+ text-decoration: underline;
+ transition: all 0.3s ease 0s;
+}
+
+.contact {
+ padding: 9px 25px ;
+ background-color: rgba(243, 24, 111, 0.9);   
+ border: none;
+ border-radius: 50px;
+ cursor: pointer;
+ transition: all 0.3s ease 0s;
+}
+.contact:hover {
+  transform: scale(1.2);
+  color: white;
+ background-color:rgba(196, 40, 102, 0.9);
+ }
+
+
+.header{
+  background-image: url("./assests/desk.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 20 rem;
+}
+
+.booking-form {
+  background-color: antiquewhite;
+    width: 50%;
+    padding: 500px;
+    border-radius: 40px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    /* float: left; */
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 12px;
+  }
+  
+  button:hover {
+    background: #333;
+  }
